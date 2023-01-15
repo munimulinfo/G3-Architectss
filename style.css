@@ -294,7 +294,8 @@ nav ul li {
 	filter: grayscale(100%);
 }
 .design-by-sponsor {
-	width: 1440px;
+	width:100%;
+	max-width: 1440px;
 	height: 100px;
 	background: #FFF4E7;
 	border-radius: 8px;
@@ -504,9 +505,7 @@ nav ul li {
 /* *********RESPONSIVE IPAD DIVAICE STYLE START********* */
 
 @media only screen and (min-width:577px)and (max-width:992px) {
-	body {
-		width: 100%;
-	}
+
 	.nav-title {
 		font-weight: 500;
 		font-size: 25px;

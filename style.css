@@ -393,8 +393,12 @@ nav ul li {
 @media only screen and (max-width: 576px) {
 	.nav-title {
 		font-weight: 500;
-		font-size: 14px;
+		font-size: 20px;
 		color: #FF900E;
+	}
+	nav {
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 	nav ul li {
 		margin-right: 10px;
@@ -505,7 +509,11 @@ nav ul li {
 	}
 	.nav-title {
 		font-weight: 500;
-		font-size: 20px;
+		font-size: 25px;
+	}
+	nav {
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 	nav ul li {
 		margin-right: 15px;
